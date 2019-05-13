@@ -1,5 +1,6 @@
 # Douyin-videos-download
-配合Fiddler抓取手机app抖音的视频地址，达到下载的目的
+
+Python学习作品，配合Fiddler抓取手机app抖音的视频地址，达到下载的目的
 
 
 
