@@ -6,7 +6,7 @@
 在Fiddler的脚本加入以下代码：
 if(oSession.fullUrl.Contains('ixigua'))
         {
-            var filepath = "复制py脚本上面的地址"
+            var filepath = "复制run.py脚本上面的地址"
             var video_url = oSession.fullUrl + "\r\n"
             var filename = filepath + ""+(new Date()).valueOf() + Math.round(Math.random()*1000 +1000) +".txt"
             var sw = System.IO.File.CreateText(filename); 
@@ -16,4 +16,4 @@ if(oSession.fullUrl.Contains('ixigua'))
         }
  
 
-点击py脚本开始监听，下载手机上看的抖音视频
+运行run.py脚本点击开始监听，下载手机上看的抖音视频
